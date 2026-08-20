@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Nav Bar */
 .nav-items-container{
     display: flex;
     justify-content: space-between;
@@ -41,4 +41,31 @@ nav li:last-child a{
 nav li:last-child a:hover{
     background-color: red;
     color:black;
+}
+
+/* Banner */
+.hero{
+    height: 90vh;
+    background:url("/images/banner.png.png");
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+.hero button:hover{
+    background-color: red;
+}
+.hero button{ 
+    padding: 6px 12px;
+    border-radius:5px;
+     
+}
+
+/* Burger video */
+.video-section{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    ;padding:50px;
+    gap: 40px;
 }
