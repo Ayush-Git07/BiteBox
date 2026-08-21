@@ -45,8 +45,11 @@ nav li:last-child a:hover{
 
 /* Banner */
 .hero{
-    height: 90vh;
+    height: 100vh;
     background:url("/images/banner.png.png");
+
+    background-position: center;
+    
     justify-content: center;
     align-items: center;
     color: white;
